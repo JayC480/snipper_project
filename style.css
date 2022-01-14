@@ -11,16 +11,26 @@
 
 body {
   background-image: url("/Assets/Background.png");
+
 }
 
 h1 {
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  text-align: center;
+  top: 100px;
 }
 
 p1 {
   color: #454241;
   font-family: "Poppins", sans-serif;
-  
+  text-align: center;
+}
+
+#left {
+  float: left;
+}
+#right {
+  float: right;
 }
