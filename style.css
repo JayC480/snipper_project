@@ -48,6 +48,15 @@ body {
   border: none;
   
 }
+.img2{
+  position: absolute;
+  top:975px;
+  right: 100px;
+  width: 400px;
+  height: 200px;
+  border: none;
+  
+}
 
 h1 {
   color: black;
@@ -104,7 +113,7 @@ p1{
 
 .bottom{
   position: absolute;
-  top:950px;
+  top:1000px;
   left: 100px;
   width: 475px;
   height: 400px;
@@ -140,4 +149,9 @@ position:absolute;
   right: 300px;
   color: #454241;
   font-family: "Poppins", sans-serif;
+}
+#logo{
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
 }
