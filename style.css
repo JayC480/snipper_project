@@ -16,16 +16,25 @@
   display: none !important;
 }
 
+body, html {
+    height: 100%;
+ 
+}
 body {
-  background-image: url("/Assets/Background.png");
+    background-image: url("/Assets/Background.png");
   background-repeat: no-repeat;
 }
-
 .wrapper {
-  min-height: var(--wrapper-height);
-  display: grid;
+  margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+
+    max-width: 960px; /* 2 */
+  height:100%;
+
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
   place-items: center;
-  margin: 0 1rem;
+  
 }
 .content {
   display: flex;
@@ -122,6 +131,18 @@ p1{
   font-family: "Poppins", sans-serif;
 }
 
+.top{
+  position: absolute;
+  top: 100px;
+  width: 800px;
+  height: 400px;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  
+}
 /* text in top half of page*/
 #top{
   color: #454241;
