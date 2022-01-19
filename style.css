@@ -31,10 +31,11 @@ body {
 .top {
   margin-right: auto;
   margin-left: auto;
-  max-width: 960px;
+  max-width: 90%;
   height: 100%;
   place-items: center;
   color: gray;
+  outline: dashed 1px black;
 }
 
 .content {
@@ -42,6 +43,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  outline: dashed 1px black;
+}
+
+/* top text content */
+.snipper {
+  max-width: 700px;
+  
+  height: 170px;
+  outline: dashed 1px black;
+  position: relative;
+  align-items: center;
+  text-align: center;
 }
 
 /* bottom container */
@@ -52,6 +65,7 @@ body {
   border: none;
   color: #454241;
   font-family: "Poppins", sans-serif;
+  outline: dashed 1px black;
 }
 
 /* ripple button */
@@ -98,6 +112,10 @@ body {
 }
 
 /* nav tag content */
+nav {
+  outline: dashed 1px black;
+}
+
 ul {
   display: flex;
   align-items: center;
@@ -122,6 +140,7 @@ h1 {
   font-weight: bold;
   font-size: 60px;
   text-align: center;
+  margin-bottom: 6px;
 }
 h2 {
   color: black;
@@ -133,5 +152,10 @@ h2 {
 p1 {
   color: #454241;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+}
+.img1 {
+  position: relative;
+  top: 74px;
+  
 }
