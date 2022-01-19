@@ -24,6 +24,30 @@ body {
   background-image: url("/Assets/Background.png");
   background-repeat: no-repeat;
 }
+
+/*nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}*/
+
+ul{  
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: .5em;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+li {
+  margin: 0 1em;
+}
+
+li.logo{
+  margin-right: auto;
+}
+
 .top {
   margin-right: auto; 
   margin-left:  auto; 
