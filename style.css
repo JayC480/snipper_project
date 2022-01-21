@@ -26,9 +26,9 @@ html {
   html {
     background-image: url("/Assets/Background.png");
     background-repeat: no-repeat;
-    background-size: 100% 92.1%;
+    background-size: 100% 81%;
   }
-  img {
+  /*img {
     position: relative;
     max-width: 100%;
     height: auto;
@@ -44,7 +44,7 @@ html {
 .content {
   /*display: flex;
   flex-direction: column;*/
-  width: 80%;
+ /* width: 80%;
   margin-right: auto;
   margin-left: auto;
   align-items: center;
@@ -63,7 +63,7 @@ html {
 }
 
 /* bottom container */
-.bottom {
+/*.bottom {
   position: relative;
   margin-right: auto;
   margin-left: auto;
@@ -71,8 +71,7 @@ html {
   max-height: auto;
 
   color: #454241;
-  font-family: "Poppins", sans-serif;
-  background-color:gray;
+  
 }
 
 .content2 {
@@ -81,22 +80,22 @@ html {
   display: grid;
   margin-right: auto;
   margin-left: auto;
-  
+  margin-bottom: 5%;
   grid-template-columns: auto auto;
   grid-column-gap: 5%;
-  background-color:yellow;
 }
 .grid-item1 {
   background-color: white;
   border: none;
   padding-top: 10%;
-  font-size: 30px;
+  
 }
 .grid-item {
   background-color: white;
   border: none;
-  padding-top: 5%;
-  font-size: 30px;
+  padding-top: 10%;
+  
+}*/
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
@@ -201,9 +200,73 @@ html {
 }
 
 /* image adgustments */
-.illustration {
-  width: 100%;
-  height: auto;
+ img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
+  .top {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  /*display: flex;
+  flex-direction: column;*/
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+  .snipper {
+  width: 90%;
+  position: relative;
+    margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* bottom container */
+.bottom {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+  max-height: auto;
+
+  color: #454241;
+  
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5%;
+}
+.grid-item1 {
+  
+  border: none;
+  padding-top: 10%;
+  
+}
+.grid-item {
+  
+  border: none;
+  padding-top: 10%;
+  
 }
 
 /* nav and footer tag content */
@@ -238,7 +301,8 @@ h2 {
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2rem;
+  margin-bottom: 1%;
 }
 
 /* paragraph characteristics */
@@ -252,5 +316,5 @@ p1 {
 p2 {
   color: #454241;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 1.1rem;
 }
