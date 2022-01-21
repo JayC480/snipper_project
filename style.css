@@ -22,21 +22,21 @@ html {
 }
 
 /* gradient image background */
-html {
-  background: url("/Assets/Background.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+  background-image: url("/Assets/Background.png");
+  background-repeat: no-repeat;
+  background: cover;
 }
 
 /* top container */
 .top {
   margin-right: auto;
   margin-left: auto;
-  max-width: 100%;
+  max-width: 90%;
+  max-height: 87vh;
   place-items: center;
   color: gray;
+  
 }
 
 .content {
@@ -44,6 +44,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 /* top text content */
@@ -51,7 +52,7 @@ html {
   max-width: 700px;
 
   height: 170px;
-
+  
   position: relative;
   align-items: center;
   text-align: center;
@@ -67,6 +68,7 @@ html {
   padding-top: 100px;
   color: #454241;
   font-family: "Poppins", sans-serif;
+  
 }
 
 .content2 {
@@ -75,12 +77,14 @@ html {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 30px;
+  
 }
 .grid-item {
   background-color: white;
   border: none;
   padding: 20px;
   font-size: 30px;
+  
 }
 
 /* ripple button */
@@ -121,9 +125,8 @@ html {
 }
 
 /* image adgustments */
-.illustration {
+img {
   width: 100%;
-  height: auto;
 }
 
 /* nav and footer tag content */
